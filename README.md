@@ -1,6 +1,6 @@
 # Atividade Perceptron
 
-##tarefa 1
+## tarefa 1
 ```Python
 from sklearn.linear_model import Perceptron
 
@@ -18,7 +18,7 @@ for teste in testes:
   print(f"Nuvens:{teste[0]}, previsao chuva {teste[1]} => Levar guarda-chuva? {'Sim' if previsao[0] == 1 else 'Não'}")
 ```
 
-##tarefa 2
+## tarefa 2
 ```Python
 from sklearn.linear_model import Perceptron
 
@@ -36,7 +36,7 @@ for teste in testes:
   print(f"Ensolarado:{teste[0]}, Finde:{teste[1]}, Lotação:{teste[2]} decisao parque {teste[1]} => ir no parque? {'Sim' if decisao[0] == 1 else 'Não'}")
 ```
 
-##tarefa 3
+## tarefa 3
 ```Python
 from sklearn.linear_model import Perceptron
 
